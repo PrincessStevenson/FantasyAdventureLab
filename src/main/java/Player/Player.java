@@ -8,12 +8,10 @@ public abstract class Player {
     private String name;
     private int healthPoints;
     private ArrayList<Treasure> bag;
-    private PlayerType playerType;
 
-    public Player(String name, int healthPoints, PlayerType playerType) {
+    public Player(String name, int healthPoints) {
         this.name = name;
         this.healthPoints = healthPoints;
-        this.playerType = playerType;
         this.bag = new ArrayList<>();
     }
 
@@ -25,7 +23,9 @@ public abstract class Player {
         return healthPoints;
     }
 
-
+    public ArrayList<Treasure> getBag() {
+        return bag;
+    }
 
 
 }
