@@ -1,4 +1,5 @@
 import Player.Fighter.Barbarian;
+import Player.Fighter.Weapons.Club;
 import org.junit.Before;
 import org.junit.Test;
 
