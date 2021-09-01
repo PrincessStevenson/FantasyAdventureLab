@@ -1,2 +1,4 @@
-package Enemies;public class Enemies {
+package Enemies;
+
+public abstract class Enemies {
 }
